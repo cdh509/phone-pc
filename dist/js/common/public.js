@@ -1,0 +1,1 @@
+define(function(require){var e=require("template"),n={temp:function(n,t,o,a){a||(a={}),$.ajax({type:"GET",url:n,dataType:"text",async:!1,success:function(n){var c=e.compile(n),l=c(t);a.appendChild?o.append(l):o.html(l),console.log("2")},error:function(e){console.log(e)}})}};return n});

@@ -1,0 +1,30 @@
+<%for(var j = 0; j < data.list[0].listCla.length; j++) {%>
+	<div class="<%= data.list[0].listCla[j] %>">
+		<div class="<%= data.list[0].listClass[j] %>">				
+		</div>
+		<div class="menu-list">
+			<ul>
+				<%for(var i = 0; i < data.list[0].listTitle.length; i++) {%>	
+					<li>
+						<span class="menu-list0"><%= data.list[0].listTitle[i] %></span>
+						<div class="menu-list1">
+							<span class="menu-list1-1"><%= data.list[0].listTitle[i] %></span>
+							<div class="menu-list1-2">
+								<a href="avascript:;"><img src="<%= data.list[0].listPrint[i] %>"></a>
+							</div>
+							<div class="menu-list1-3">
+								<div class="menu-list1-3-1"><%= data.list[0].listTitles[i] %></div>
+								<div class="menu-list1-3-2">
+									<span><%= data.list[0].listPrice[i] %></span>
+									<span><%= data.list[0].listVisit[i] %></span>
+								</div>
+								<label class="menu-list1-3-3"><input type="radio" name="">Add</label>
+							</div>
+							<span class="menu-list1-4"><%= data.list[0].listHint[i] %></span>
+						</div>
+					</li>
+				<%}%>
+			</ul>
+		</div>
+	</div>
+<%}%>

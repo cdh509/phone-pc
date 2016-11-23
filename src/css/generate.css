@@ -1,0 +1,189 @@
+.generate-list {
+  overflow: hidden;
+  width: 1017px;
+  margin: 40px auto;
+}
+.generate1 {
+  height: 62px;
+  width: 339px;
+  float: left;
+}
+.generate2 {
+  height: 62px;
+  width: 339px;
+  float: left;
+}
+.generate3 {
+  height: 62px;
+  width: 339px;
+  float: left;
+}
+.generate1-1 {
+  float: left;
+  height: 62px;
+  width: 55px;
+  background: url("../images/icon.png") no-repeat;
+  background-position: 0 0;
+}
+.generate2-1 {
+  float: left;
+  height: 62px;
+  width: 55px;
+  background: url("../images/icon.png") no-repeat;
+  background-position: 0 -76px;
+}
+.generate3-1 {
+  float: left;
+  height: 62px;
+  width: 55px;
+  background: url("../images/icon.png") no-repeat;
+  background-position: 0 -147px;
+}
+.generate1-2 {
+  float: left;
+  margin-top: 27px;
+  font-size: 20px;
+}
+.generate2-2-1 {
+  font-size: 26px;
+  text-align: right;
+}
+.generate3-2-1 {
+  font-size: 26px;
+  text-align: right;
+}
+.generate2-2 {
+  float: left;
+  margin-left: 29px;
+}
+.generate3-2 {
+  float: left;
+  margin-left: 29px;
+}
+.generate2-2-2 {
+  width: 200px;
+  height: 10px;
+  border: 1px solid #000000;
+}
+.generate3-2-2 {
+  width: 200px;
+  height: 10px;
+  border: 1px solid #000000;
+}
+.generate-type {
+  width: 1280px;
+}
+.generate-type1 {
+  display: block;
+  height: 30px;
+  text-align: center;
+}
+.generate-type1 a {
+  font-size: 18px;
+  color: #000000;
+}
+.generate-type2 {
+  overflow: hidden;
+  width: 822px;
+  margin: 0 auto;
+}
+.generate-type2 a {
+  font-size: 24px;
+  color: #b7afbd;
+}
+.generate-type2 li {
+  display: block;
+  float: left;
+  width: 130px;
+  height: 55px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 5px;
+}
+.generate-type3 {
+  overflow: hidden;
+  width: 410px;
+  margin: 50px auto;
+}
+.generate-type3 button:before {
+  content: "";
+  display: block;
+  height: 24px;
+  background: url("../images/icon.png") no-repeat;
+  background-size: 150px;
+}
+.generate-type3 button {
+  float: left;
+  width: 200px;
+  height: 42px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+.generate-type3 .generate-type3-1-0 {
+  background-color: #ffffff;
+}
+.generate-type3 .generate-type3-1-0:before {
+  background-position: 40px -107px;
+}
+.generate-type3 .generate-type3-1-1 {
+  margin-left: 10px;
+  background-color: #8bc34a;
+}
+.generate-type3 .generate-type3-1-1:before {
+  background-position: 64px -130px;
+}
+.menu-list {
+  width: 1208px;
+  margin: 0 auto;
+}
+.menu-list li {
+  float: left;
+  width: 290px;
+  border: 1px solid #000000;
+  margin-left: 10px;
+  margin-top: 24px;
+  border-radius: 8px;
+}
+.menu-list1-1 {
+  display: block;
+  height: 24px;
+  font-size: 20px;
+  font-style: normal;
+  padding: 5px;
+}
+.menu-list1-3 {
+  padding: 5px;
+}
+.menu-list1-4 {
+  display: block;
+  border-top: 1px solid #000000;
+  line-height: 27px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #dad7d5;
+  height: 25px;
+}
+.menu-list1-3-1 {
+  display: block;
+  height: 22px;
+  font-size: 10px;
+}
+.menu-list1-3-2 span {
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  height: 20px;
+}
+.menu-list1-3-2 {
+  display: block;
+  height: 46px;
+}
+.menu-list1-3-3 {
+  display: block;
+  height: 46px;
+}
+.menu-list1-2 img {
+  width: 290px;
+}

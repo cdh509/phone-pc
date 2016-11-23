@@ -1,0 +1,1 @@
+define(function(require){var a=require("Public");$.ajax({type:"GET",url:"./datas/itineraryDatas.js",dataType:"json",success:function(t){var n=t;console.log(n.data),n.status&&n.data&&a.temp("../src/tpl/itinerary.tpl.html",n,$(".menu-list"),{appendChild:!0})},error:function(a){console.log(a)}})});

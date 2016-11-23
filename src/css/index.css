@@ -1,0 +1,83 @@
+body {
+  background: url("../images/bg-homepage.jpg") no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+.jump-menu {
+  overflow: hidden;
+  width: 960px;
+  margin: 320px auto 0;
+}
+.jump-bill {
+  display: block;
+  float: left;
+  height: 70px;
+  width: 240px;
+  background: url("../images/font_icon.png") no-repeat;
+  background-size: 240px;
+}
+.jump-menu1 {
+  background-position: 0 3px;
+}
+.jump-menu2 {
+  background-position: 0 -75px;
+}
+.jump-menu3 {
+  background-position: 0 -166px;
+}
+.jump-menu4 {
+  background-position: 0 -260px;
+}
+.jump-menu1 a {
+  display: block;
+  height: 70px;
+  width: 240px;
+}
+.jump-menu2 a {
+  display: block;
+  height: 70px;
+  width: 240px;
+}
+.jump-menu3 a {
+  display: block;
+  height: 70px;
+  width: 240px;
+}
+.jump-menu4 a {
+  display: block;
+  height: 70px;
+  width: 240px;
+}
+.search-box {
+  width: 240px;
+  margin: 30px auto 0;
+}
+.search-box1,
+.search-box2 {
+  display: block;
+}
+.search-box1 {
+  float: left;
+  height: 30px;
+  width: 200px;
+  text-indent: 15px;
+  border-bottom-left-radius: 16px;
+  border-top-left-radius: 16px;
+}
+.search-box2 {
+  height: 34px;
+  width: 33px;
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+  background: url("../images/icon.png") no-repeat;
+  background-position: 2px -396px;
+  background-color: #ffffff;
+}
+.menu-index {
+  height: 140px;
+  width: 720px;
+  background: url("../images/bg-font.png") no-repeat;
+  background-position: 0px 0px;
+  background-size: 720px;
+  margin: 50px auto 0;
+}
